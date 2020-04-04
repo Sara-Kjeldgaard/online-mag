@@ -1,0 +1,43 @@
+/* Style the footer */
+.footer {
+  background-color: #black;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  background-size: 100%;
+  justify-content: center;
+}
+
+article {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  column-count: 2;
+  word-break: inherit;
+  width: 75%;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 80%;
+  /** bestemmer hvor bred dit content max kan blive (uanset skærm) **/
+  max-width: 800px;
+  
+}
+
+#infographic {
+  width: 100%;
+  }
+ 
+
+.boxes {
+    display:flex;
+    justify-content:
+        space-around; 
+ }
+/**jeg kan ikke få den der flexbox til at virker.
